@@ -54,3 +54,5 @@ class colog:
 
 	def dep(self, string): #deprecated error
 		self.display(string, "DEPRECATED", self.MAGENTA, False)
+	def custom(self, string, lvl, color, inv=False):
+		self.display(string, lvl, color, inv)
